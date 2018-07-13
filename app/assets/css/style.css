@@ -1,0 +1,21 @@
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	margin: 0px auto;
+}
+#canvas {
+	display: flex;
+    justify-content: center;
+}
+div.flipBook {
+	width: 600px;
+	height: 600px;
+	cursor: pointer;
+}
+/* div#boxes {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+} */
