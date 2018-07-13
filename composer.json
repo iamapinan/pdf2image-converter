@@ -12,7 +12,8 @@
         "php convert"
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "ext-imagick": "*"
     },
     "license": "MIT",
     "authors": [
