@@ -51,10 +51,10 @@ if ($page_number) {
         
         $image = new Imagick($url);
         $image->setResolution(300,300);
-        $image->setImageFormat("jpg"); 
-        $image->writeImage($folder."/".($i+1).".jpg"); 
+        $image->setImageFormat($format); 
+        $image->writeImage($folder."/".($i+1).".".$format); 
         // Save output to json
-        $res['file'][$i] = $_ENV['ServerURL'] . "/temp/output/".$id."/".($i+1).'.jpg';
+        $res['file'][$i] = $_ENV['ServerURL'] . "/temp/output/".$id."/".($i+1).'.'.$format;
     }
     
     $image->clear(); 

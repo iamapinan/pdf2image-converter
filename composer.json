@@ -1,0 +1,34 @@
+{
+    "name": "iotech/pdf2image-converter",
+    "description": " To convert PDF file to jpg or png using API supported by GET, POST method. This package is included Dockerfile and docker image.",
+    "type": "library",
+    "keywords": [
+        "pdf converter",
+        "pdf2image",
+        "pdf2png",
+        "image converter",
+        "pdf",
+        "php library",
+        "php convert"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Apinan Woratrakun",
+            "email": "apinan@iotech.co.th",
+            "role": "Contributor"
+        }
+    ],
+    "minimum-stability": "dev",
+    "support": {
+        "email": "developer@iotech.co.th"
+    },
+    "autoload": {
+        "psr-4": {
+            "PDF2Image\\": "app/"
+        }
+    }
+}
